@@ -88,15 +88,19 @@
   left: 44.38%;
   top: 38.33%;
 }
+.banner h2 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
 .pros {
   position: absolute;
   width: 1009px;
   height: 237px;
   top: 758px;
-  text-align: center;
-}
-.pros h2 {
-  text-align: center;
 }
 .pro_1 {
   position: absolute;
@@ -124,9 +128,6 @@
   bottom: 36;
   border-radius: 50%;
 }
-.pro_1 h3 .pro_2 h3 .pro_3 h3 .pro_4 {
-  left: 10%;
-}
 .quote {
   background-color: #c271ff;
   position: absolute;
@@ -139,8 +140,9 @@
   position: absolute;
   width: 160px;
   height: 160px;
-  left: 260px;
-  top: 108px;
+  left: 269px;
+  top: 121px;
+  border-radius: 80px;
 }
 .qText {
   position: absolute;
@@ -180,13 +182,6 @@
   line-height: 40px;
   text-align: center;
 }
-.tuto {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  top: 115px;
-  left: 60px;
-}
 .tuto_1 {
   position: absolute;
   left: 4.72%;
@@ -201,16 +196,6 @@
   top: 25.56%;
   bottom: 0%;
 }
-.author img {
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  left: 5.1%;
-  right: 83.14%;
-  top: 77.91%;
-  bottom: 13.13%;
-}
 .tuto_3 {
   position: absolute;
   left: 51.22%;
@@ -224,6 +209,45 @@
   right: 4.8%;
   top: 25.56%;
   bottom: 0%;
+}
+.author img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 13px;
+  top: 276px;
+  border-radius: 50%;
+}
+.author h3 {
+  position: absolute;
+  height: 27px;
+  right: 44.31%;
+  top: calc(50% - 27px / 2 + 109px);
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+
+  color: #c271ff;
+}
+.starc {
+  position: absolute;
+  width: 107px;
+  height: 15px;
+  left: 13px;
+  top: 305px;
+}
+.min {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
+
+  color: #c271ff;
 }
 .membership {
   background-color: #071629;
@@ -257,10 +281,26 @@
 .dot img {
   width: 43.5px;
   height: 35.5;
+  filter: invert(1);
+  color: #7533a9;
 }
 .dot h2 {
+  position: absolute;
+  height: 26px;
+  left: 0.19%;
+  right: 0.19%;
+  top: calc(50% - 26px / 2 - 1.5px);
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
   font-size: 18px;
-  font-weight: 500;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .dot p {
   font-size: 14px;
@@ -268,6 +308,7 @@
   width: 215px;
   height: 52px;
   padding-inline: 21px;
+  color: white;
 }
 .faq {
   position: absolute;
